@@ -1,0 +1,94 @@
+.questions{
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    margin:auto;
+    width:800px;
+    background-color: rgb(80, 3, 188);
+    padding:0% 10% 0% 10%;
+    border-radius:20px;
+}
+.questions h2{
+    text-align:center;
+    padding:10px;
+    background-color:white;
+    border-radius:30px;
+}
+.questions .prop{
+    text-align:center;
+    background-color: beige;
+    width:300px;
+    padding:5px;
+    border-radius:20px;
+    font-size:1.3em;
+    border:solid black 1px;
+    margin-bottom:10px;
+    font-weight: 500;
+}
+
+.suivant{
+    display:none;
+    text-align:center;
+    background-color: white;
+    width:200px;
+    padding:5px;
+    border-radius:20px;
+    font-size:1.3em;
+    border:solid black 1px;
+    margin:auto;
+    margin-top:20px;
+    margin-right:5%;
+}
+
+.questions .prop:hover, .suivant:hover{
+    background-color:rgb(54, 5, 122);
+    color:white;
+}
+.questions:focus{
+    background-color: rgb(5, 15, 88);
+    color:white;
+}
+
+.bonneRep{
+    background-color: green;
+    color:white;
+    text-align:center;
+    width:300px;
+    padding:5px;
+    border-radius:20px;
+    font-size:1.3em;
+    border:solid black 1px;
+    margin-bottom:10px;
+    font-weight: 500;
+}
+.mauvaiseRep{
+    background-color: red;
+    color:white;
+    text-align:center;
+    width:300px;
+    padding:5px;
+    border-radius:20px;
+    font-size:1.3em;
+    border:solid black 1px;
+    margin-bottom:10px;
+    font-weight: 500;
+}
+
+.valider{
+    display:none;
+    margin:auto;
+    margin-right:0%;
+    width:100px;
+    text-align:center;
+    padding:10px;
+    background-color: rgb(5, 15, 88);
+    border-radius: 20px;
+    color:white;
+    border:1px black solid;
+    font-size:1.3em;
+    font-weight:500;
+}
+.valider:hover{
+    background-color:white;
+    color:rgb(5,15,88);
+}
