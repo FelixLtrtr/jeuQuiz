@@ -1,3 +1,3 @@
 # jeuQuiz
 
-Petit quiz internet code en HTML, CSS et JavaScript
+Petit quiz internet codé en HTML, CSS et JavaScript
